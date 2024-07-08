@@ -6,6 +6,10 @@ NetProbe is a network packet sniffer tool built using Scapy, designed to capture
 
 NetProbe is a Python-based network packet sniffer that leverages the Scapy library. It allows users to capture, dissect, and analyze network packets, making it useful for network administrators, security analysts, and developers working with network protocols.
 
+## Note
+
+Change the number of count in the sniffer.py to capture more number of packets
+
 ## Features
 
 - Real-time packet capturing
