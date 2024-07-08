@@ -9,6 +9,8 @@ def call_back(packet):
         ip_destination = packet[IP].dst
         print(f"IP Packet: {ip_source} -> {ip_destination}")
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     show_splash_screen()
+    # change the number of packets captures here
     sniff(prn=call_back, count=1)
